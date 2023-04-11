@@ -1,0 +1,48 @@
+body {
+    background-color: rgb(232, 213, 213);
+}
+
+html {
+    font-family: 'Montserrat', sans-serif;
+}
+
+img {
+    width: 20em;
+    border-radius: 10px;
+}
+
+.tistreza {
+    width: 100%;
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.twitter-tweet{
+    width: 200px;
+}
+
+.item {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    border-radius: 30px;
+    width: 50%;
+    justify-items: center;
+    padding: 10px;
+    margin: 10px;
+}
+
+
+@media (max-width: 450px) {
+    img {
+        width: 50%;
+    }
+}
